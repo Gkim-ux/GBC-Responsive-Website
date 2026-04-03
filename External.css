@@ -1,7 +1,6 @@
 /* ==========================================
    Project 1: GBC Responsive Website
    Student: Jihyun Kim
-   File Name: External.css
    ========================================== */
 
 /* 1. Global Variables & Reset */
@@ -49,7 +48,6 @@ nav {
     align-items: center;
 }
 
-/* Logo styling */
 .logo img {
     height: 45px;
     width: auto;
@@ -65,7 +63,7 @@ nav {
 .nav-menu a {
     text-decoration: none;
     color: var(--dark-grey);
-    font-weight: 600;
+    font-weight: 500;
     transition: var(--transition);
 }
 
@@ -122,7 +120,6 @@ nav {
     flex: 1;
 }
 
-/* Hero Image: George Brown College Waterfront Campus-crop.jpg */
 .hero-image img {
     width: 100%;
     height: auto;
@@ -160,10 +157,11 @@ nav {
     transition: var(--transition);
 }
 
-/* Competency Images: about.jpg, core.png, career.jpg */
+/* Styling for the three images you requested */
 .card-icon-img {
     width: 100%;
-    height: 180px;
+    max-width: 250px; /* 카드 이미지 크기 조절 */
+    height: 150px;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -178,7 +176,7 @@ nav {
 .grid-card p {
     color: #d1d5db;
     font-size: 1rem;
-    text-align: center;
+    text-align: left; /* 설명글은 왼쪽 정렬이 가독성이 좋습니다 */
 }
 
 .grid-card:hover {
@@ -199,7 +197,6 @@ footer {
 footer p:first-child {
     color: var(--white);
     margin-bottom: 10px;
-    font-weight: 600;
 }
 
 /* 6. Media Queries (Responsive Design) */
